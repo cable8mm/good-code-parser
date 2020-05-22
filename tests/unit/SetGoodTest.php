@@ -6,7 +6,7 @@ use EscCompany\GoodCodeParser\GoodCodeParser;
 use EscCompany\GoodCodeParser\Parsers\SetGood;
 use PHPUnit\Framework\TestCase;
 
-class GoodCodeParserTest extends TestCase
+class SetGoodTest extends TestCase
 {
     public function test_파싱이_되는지()
     {
@@ -21,7 +21,7 @@ class GoodCodeParserTest extends TestCase
         ];
 
         // Act
-        $parsed = (new GoodCodeParser($input))->parsing(SetGood::class)->get();
+        $parsed = (new GoodCodeParser($input))->with(SetGood::class)->get();
 
         // Assert
         $this->assertEquals($parsed, $output);

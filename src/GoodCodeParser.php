@@ -25,9 +25,9 @@ class GoodCodeParser
      *
      * @var $parser EscCompany\GoodCodeParser\Contracts\Parser
      */
-    public function parsing($parser)
+    public function with($parser, $goods = null)
     {
-        $this->parsed = $parser::parse($this->parse);
+        $this->parsed = is_null($goods) ? $parser::parse($this->parse) : $parser::parse($this->parse, $goods);
 
         return $this;
     }
