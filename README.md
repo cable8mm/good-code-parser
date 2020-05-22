@@ -20,7 +20,7 @@ use EscCompany\GoodCodeParser\Parsers\SetGood;
 $goodCode = 'set7369x4ZZ4235x6';
 
 $goodCodes = (new GoodCodeParser($goodCode))
-            ->parsing(SetGood::class)
+            ->with(SetGood::class)
             ->get();
 
 // ['7369'=>4,'4235'=>6]
