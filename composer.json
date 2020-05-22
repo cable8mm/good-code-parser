@@ -2,11 +2,12 @@
     "name": "esc-company/good-code-parser",
     "description": "ESC-Company suggests general code-spec, parser and implement spec.",
     "keywords": [
-        "phpunit",
+        "composer",
         "php",
-        "development",
-        "tdd",
-        "startkit"
+        "esc-company",
+        "holapet",
+        "psr-12",
+        "packagist"
     ],
     "type": "project",
     "require": {
