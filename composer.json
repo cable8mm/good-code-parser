@@ -1,6 +1,6 @@
 {
-    "name": "cable8mm/phpunit-start-kit",
-    "description": "Phpunit Start Kit is the simple code for starting TDD",
+    "name": "esc-company/good-code-parser",
+    "description": "ESC-Company suggests general code-spec, parser and implement spec.",
     "keywords": [
         "phpunit",
         "php",
