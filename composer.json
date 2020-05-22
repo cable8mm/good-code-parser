@@ -1,0 +1,49 @@
+{
+    "name": "cable8mm/phpunit-start-kit",
+    "description": "Phpunit Start Kit is the simple code for starting TDD",
+    "keywords": [
+        "phpunit",
+        "php",
+        "development",
+        "tdd",
+        "startkit"
+    ],
+    "type": "project",
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sam Lee",
+            "email": "cable8mm@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "EscCompany\\GoodCodeParser\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "start": [
+            "@php bin/init.php"
+        ],
+        "test": [
+            "./vendor/bin/phpunit tests"
+        ]
+    }
+}
