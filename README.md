@@ -1,5 +1,7 @@
 # Good Code Parser
 
+![PHP Composer](https://github.com/esc-company/good-code-parser/workflows/PHP%20Composer/badge.svg)
+
 ESC-Company suggests general code-spec, parser and implement spec.
 
 ## Usage
