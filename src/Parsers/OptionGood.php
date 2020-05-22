@@ -10,7 +10,7 @@ final class OptionGood implements Parser
     /**
      * {@inheritDoc}
      */
-    public function parse(string $code)
+    public static function parse(string $code, $goods = null)
     {
         throw new MethodNotImplementedException(__METHOD__);
     }

@@ -12,5 +12,5 @@ interface Parser
      *
      * @throws EscCompany\GoodCodeParser\Exception\MethodNotImplementedException
      */
-    public static function parse(string $parse);
+    public static function parse(string $parse, $goods = null);
 }

@@ -3,15 +3,18 @@
 namespace EscCompany\GoodCodeParser\Parsers;
 
 use EscCompany\GoodCodeParser\Contracts\Parser;
-use EscCompany\GoodCodeParser\Exception\MethodNotImplementedException;
 
 final class GiftGood implements Parser
 {
+    const PREFIX = 'gif';
+
     /**
      * {@inheritDoc}
      */
-    public function parse(string $code)
+    public static function parse(string $code, $goods = null)
     {
-        throw new MethodNotImplementedException(__METHOD__);
+        $comCode = preg_replace('/^' . self::PREFIX . '/', ComplexGood::PREFIX, $code);
+
+        return ComplexGood::parse($comCode, $goods);
     }
 }

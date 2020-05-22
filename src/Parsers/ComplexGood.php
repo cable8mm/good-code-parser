@@ -3,15 +3,23 @@
 namespace EscCompany\GoodCodeParser\Parsers;
 
 use EscCompany\GoodCodeParser\Contracts\Parser;
-use EscCompany\GoodCodeParser\Exception\MethodNotImplementedException;
+use InvalidArgumentException;
 
 final class ComplexGood implements Parser
 {
+    const PREFIX = 'com';
+
     /**
      * {@inheritDoc}
      */
-    public function parse(string $code)
+    public static function parse(string $code, $goods = null)
     {
-        throw new MethodNotImplementedException(__METHOD__);
+        if (is_null($goods)) {
+            throw new InvalidArgumentException(__METHOD__);
+        }
+
+        $key = preg_replace('/^' . self::PREFIX . '/i', '', $code);
+
+        return $goods[$key];
     }
 }
