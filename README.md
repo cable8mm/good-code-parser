@@ -59,9 +59,10 @@ $parsed = (new OptionCodeParser($inOptionCode, $inOptionName))
 
 ## Support codes
 
-| Type         | Notation | Description | Implement |
-| ------------ | -------- | ----------- | --------- |
-| Set Code     | SET      |             | Yes       |
-| Complex Code | COM      |             | Yes       |
-| Gift Code    | GIF      |             | Yes       |
-| Option Code  | OPT      |             | Yes       |
+| Type           | Notation | Description                                                                                                                      | Implement |
+| -------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| `Normal Code`  | SET      | Match only one good                                                                                                              | Yes       |
+| `Set Code`     | SET      | Match one more good, max 255 characters                                                                                          | Yes       |
+| `Complex Code` | COM      | Shorten code for `Set Code`                                                                                                      | Yes       |
+| `Gift Code`    | GIF      | Alias `Complex Code`                                                                                                             | Yes       |
+| `Option Code`  | OPT      | Very complicated code. Not mastercode, but code + search name.(eq. wemakeprice, naver petWindow and all most OpenMarket options) | Yes       |
