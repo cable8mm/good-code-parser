@@ -61,7 +61,7 @@ $parsed = (new OptionCodeParser($inOptionCode, $inOptionName))
 
 | Type           | Notation | Description                                                                                                                      | Implement |
 | -------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------- | --------- |
-| `Normal Code`  | SET      | Match only one good                                                                                                              | Yes       |
+| `Normal Code`  | -        | Match only one good                                                                                                              | Yes       |
 | `Set Code`     | SET      | Match one more good, max 255 characters                                                                                          | Yes       |
 | `Complex Code` | COM      | Shorten code for `Set Code`                                                                                                      | Yes       |
 | `Gift Code`    | GIF      | Alias `Complex Code`                                                                                                             | Yes       |
