@@ -5,11 +5,13 @@
 
 ESC-Company suggests general code-spec, parser and implement spec.
 
-## Usage
+## Install
 
 ```bash
 composer require esc-company/good-code-parser
 ```
+
+## Usage
 
 ```php
 <?php
