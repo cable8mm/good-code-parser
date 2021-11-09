@@ -11,18 +11,22 @@ final class SetGood implements Parser
     const DELIMITER_COUNT = 'x';
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public static function parse(string $parse, $goods = null)
     {
-        $escape = preg_replace('/^' . self::PREFIX . '/i', '', $parse);
+        $escape = preg_replace('/^'.self::PREFIX.'/i', '', $parse);
 
         $goodCodes = explode(self::DELIMITER, $escape);
 
         $parcedCodes = [];
 
         foreach ($goodCodes as $code) {
-            [$k, $v] = explode(self::DELIMITER_COUNT, $code);
+            if (preg_match('/'.self::DELIMITER_COUNT.'/i', $code)) {
+                [$k, $v] = explode(self::DELIMITER_COUNT, $code);
+            } else {
+                [$k, $v] = [$code, 1];
+            }
             $parcedCodes[$k] = $v;
         }
 
