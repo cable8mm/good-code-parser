@@ -1,6 +1,6 @@
 <?php
 
-namespace EscCompany\GoodCodeParser;
+namespace Cable8mm\GoodCodeParser;
 
 class GoodCodeParser
 {
@@ -23,7 +23,7 @@ class GoodCodeParser
      * @param string
      * @return $this
      *
-     * @var $parser EscCompany\GoodCodeParser\Contracts\Parser
+     * @var $parser Cable8mm\GoodCodeParser\Contracts\Parser
      */
     public function with($parser, $goods = null)
     {

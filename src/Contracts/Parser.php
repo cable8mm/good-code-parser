@@ -1,6 +1,6 @@
 <?php
 
-namespace EscCompany\GoodCodeParser\Contracts;
+namespace Cable8mm\GoodCodeParser\Contracts;
 
 interface Parser
 {
@@ -10,7 +10,7 @@ interface Parser
      * @param string $goodCode before parsing
      * @return array|string after parsing
      *
-     * @throws EscCompany\GoodCodeParser\Exception\MethodNotImplementedException
+     * @throws Cable8mm\GoodCodeParser\Exception\MethodNotImplementedException
      */
     public static function parse(string $parse, $goods = null);
 }

@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use EscCompany\GoodCodeParser\OptionCodeParser;
-use EscCompany\GoodCodeParser\Parsers\OptionGood;
+use Cable8mm\GoodCodeParser\OptionCodeParser;
+use Cable8mm\GoodCodeParser\Parsers\OptionGood;
 use PHPUnit\Framework\TestCase;
 
 class OptionGoodTest extends TestCase

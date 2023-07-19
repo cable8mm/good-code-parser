@@ -1,6 +1,6 @@
 <?php
 
-namespace EscCompany\GoodCodeParser\Exception;
+namespace Cable8mm\GoodCodeParser\Exception;
 
 use Exception;
 

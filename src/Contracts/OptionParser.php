@@ -1,6 +1,6 @@
 <?php
 
-namespace EscCompany\GoodCodeParser\Contracts;
+namespace Cable8mm\GoodCodeParser\Contracts;
 
 interface OptionParser
 {

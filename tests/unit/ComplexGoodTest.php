@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use EscCompany\GoodCodeParser\Parsers\ComplexGood;
-use EscCompany\GoodCodeParser\GoodCodeParser;
+use Cable8mm\GoodCodeParser\Parsers\ComplexGood;
+use Cable8mm\GoodCodeParser\GoodCodeParser;
 use PHPUnit\Framework\TestCase;
 
 class ComplexGoodTest extends TestCase
