@@ -23,7 +23,7 @@ class GoodCodeParser
      * @param string
      * @return $this
      *
-     * @var $parser Cable8mm\GoodCodeParser\Contracts\Parser
+     * @var Cable8mm\GoodCodeParser\Contracts\Parser
      */
     public function with($parser, $goods = null)
     {

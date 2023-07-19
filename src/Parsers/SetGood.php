@@ -7,7 +7,9 @@ use Cable8mm\GoodCodeParser\Contracts\Parser;
 final class SetGood implements Parser
 {
     const PREFIX = 'set';
+
     const DELIMITER = 'ZZ';
+
     const DELIMITER_COUNT = 'x';
 
     /**

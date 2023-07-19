@@ -29,7 +29,7 @@ class OptionCodeParser
      * @param string
      * @return $this
      *
-     * @var $parser Cable8mm\GoodCodeParser\Contracts\OptionParser
+     * @var Cable8mm\GoodCodeParser\Contracts\OptionParser
      */
     public function with($parser, array $goods, array $options)
     {

@@ -23,7 +23,7 @@ final class OptionGood implements OptionParser
         }
 
         if (empty($optionGood)) {
-            throw new InvalidArgumentException(__METHOD__ . ' There is no good code');
+            throw new InvalidArgumentException(__METHOD__.' There is no good code');
         }
 
         foreach ($options as $option) {
@@ -33,7 +33,7 @@ final class OptionGood implements OptionParser
         }
 
         if (is_null($optionGood)) {
-            throw new InvalidArgumentException(__METHOD__ . ' There is no option good code');
+            throw new InvalidArgumentException(__METHOD__.' There is no option good code');
         }
     }
 }

@@ -7,7 +7,7 @@ use Exception;
 class MethodNotImplementedException extends Exception
 {
     /**
-     * @param string $methodName The name of the method
+     * @param  string  $methodName The name of the method
      */
     public function __construct(string $methodName)
     {

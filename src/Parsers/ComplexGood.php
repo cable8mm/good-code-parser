@@ -18,7 +18,7 @@ final class ComplexGood implements Parser
             throw new InvalidArgumentException(__METHOD__);
         }
 
-        $key = preg_replace('/^' . self::PREFIX . '/i', '', $code);
+        $key = preg_replace('/^'.self::PREFIX.'/i', '', $code);
 
         return $goods[$key];
     }
