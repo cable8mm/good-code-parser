@@ -1,8 +1,8 @@
 <?php
 
-namespace EscCompany\GoodCodeParser\Parsers;
+namespace Cable8mm\GoodCodeParser\Parsers;
 
-use EscCompany\GoodCodeParser\Contracts\Parser;
+use Cable8mm\GoodCodeParser\Contracts\Parser;
 
 final class GiftGood implements Parser
 {
@@ -13,7 +13,7 @@ final class GiftGood implements Parser
      */
     public static function parse(string $code, $goods = null)
     {
-        $comCode = preg_replace('/^' . self::PREFIX . '/i', ComplexGood::PREFIX, $code);
+        $comCode = preg_replace('/^'.self::PREFIX.'/i', ComplexGood::PREFIX, $code);
 
         return ComplexGood::parse($comCode, $goods);
     }

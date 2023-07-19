@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use EscCompany\GoodCodeParser\Parsers\ComplexGood;
-use EscCompany\GoodCodeParser\GoodCodeParser;
+use Cable8mm\GoodCodeParser\GoodCodeParser;
+use Cable8mm\GoodCodeParser\Parsers\ComplexGood;
 use PHPUnit\Framework\TestCase;
 
 class ComplexGoodTest extends TestCase
@@ -14,7 +14,7 @@ class ComplexGoodTest extends TestCase
         $goods = [
             1 => 'set11319x1ZZ11626x1ZZ11624x1ZZ11628x1',
             2 => 'set11318x1ZZP3800x1ZZP7776x1ZZP9732x1',
-            3 => 'set11318x1ZZP2526x1ZZP7776x1'
+            3 => 'set11318x1ZZP2526x1ZZP7776x1',
         ];
 
         $input = 'com2';

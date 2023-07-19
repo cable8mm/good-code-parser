@@ -1,8 +1,8 @@
 <?php
 
-namespace EscCompany\GoodCodeParser\Parsers;
+namespace Cable8mm\GoodCodeParser\Parsers;
 
-use EscCompany\GoodCodeParser\Contracts\Parser;
+use Cable8mm\GoodCodeParser\Contracts\Parser;
 use InvalidArgumentException;
 
 final class ComplexGood implements Parser
@@ -18,7 +18,7 @@ final class ComplexGood implements Parser
             throw new InvalidArgumentException(__METHOD__);
         }
 
-        $key = preg_replace('/^' . self::PREFIX . '/i', '', $code);
+        $key = preg_replace('/^'.self::PREFIX.'/i', '', $code);
 
         return $goods[$key];
     }

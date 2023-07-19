@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use EscCompany\GoodCodeParser\GoodCodeParser;
-use EscCompany\GoodCodeParser\Parsers\SetGood;
+use Cable8mm\GoodCodeParser\GoodCodeParser;
+use Cable8mm\GoodCodeParser\Parsers\SetGood;
 use PHPUnit\Framework\TestCase;
 
 class SetGoodTest extends TestCase

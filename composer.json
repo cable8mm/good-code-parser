@@ -1,20 +1,20 @@
 {
-    "name": "esc-company/good-code-parser",
-    "description": "ESC-Company suggests general code-spec, parser and implement spec.",
+    "name": "cable8mm/good-code-parser",
+    "description": "Sam suggests general code-spec, parser and implement spec.",
     "keywords": [
         "composer",
         "php",
-        "esc-company",
-        "holapet",
+        "cable8mm",
         "psr-12",
         "packagist"
     ],
     "type": "project",
     "require": {
-        "php": ">=7.2"
+        "php": "^7.4|^8.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8"
+        "phpunit/phpunit": "^8",
+        "laravel/pint": "^1.10"
     },
     "license": "MIT",
     "authors": [
@@ -29,7 +29,7 @@
             "src/"
         ],
         "psr-4": {
-            "EscCompany\\GoodCodeParser\\": "src/"
+            "Cable8mm\\GoodCodeParser\\": "src/"
         }
     },
     "autoload-dev": {
@@ -45,6 +45,9 @@
         ],
         "test": [
             "./vendor/bin/phpunit tests"
+        ],
+        "lint": [
+            "./vendor/bin/pint"
         ]
     }
 }

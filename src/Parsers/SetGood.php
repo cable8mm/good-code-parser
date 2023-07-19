@@ -1,13 +1,15 @@
 <?php
 
-namespace EscCompany\GoodCodeParser\Parsers;
+namespace Cable8mm\GoodCodeParser\Parsers;
 
-use EscCompany\GoodCodeParser\Contracts\Parser;
+use Cable8mm\GoodCodeParser\Contracts\Parser;
 
 final class SetGood implements Parser
 {
     const PREFIX = 'set';
+
     const DELIMITER = 'ZZ';
+
     const DELIMITER_COUNT = 'x';
 
     /**
