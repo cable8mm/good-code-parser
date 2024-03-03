@@ -1,5 +1,14 @@
 # Release Notes
 
+## v1.0.1 - 2024-03-03
+
+### What's Changed
+
+* Add phpunit config file by [@cable8mm](https://github.com/cable8mm) in https://github.com/cable8mm/good-code-parser/pull/7
+* Revise readme and composer config by [@cable8mm](https://github.com/cable8mm) in https://github.com/cable8mm/good-code-parser/pull/8
+
+**Full Changelog**: https://github.com/cable8mm/good-code-parser/compare/v1.0.0...v1.0.1
+
 ## v1.0.0 - 2024-03-03
 
 ### What's Changed
@@ -45,6 +54,7 @@ Feature : Setcode default value. The patch apply setcode default value.
         // Assert
         $this->assertEquals($parsed, $expect);
     }
+
 
 ```
 ## v0.7.0 - 2020-05-22
