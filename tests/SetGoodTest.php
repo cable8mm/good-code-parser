@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1);
+namespace Cable8mm\GoodCodeParser\Tests;
 
 use Cable8mm\GoodCodeParser\GoodCodeParser;
 use Cable8mm\GoodCodeParser\Parsers\SetGood;

@@ -1,12 +1,12 @@
 <?php
 
-declare(strict_types=1);
+namespace Cable8mm\GoodCodeParser\Tests;
 
 use Cable8mm\GoodCodeParser\GoodCodeParser;
-use Cable8mm\GoodCodeParser\Parsers\GiftGood;
+use Cable8mm\GoodCodeParser\Parsers\ComplexGood;
 use PHPUnit\Framework\TestCase;
 
-class GiftGoodTest extends TestCase
+class ComplexGoodTest extends TestCase
 {
     public function test_파싱이_되는지()
     {
@@ -17,12 +17,12 @@ class GiftGoodTest extends TestCase
             3 => 'set11318x1ZZP2526x1ZZP7776x1',
         ];
 
-        $input = 'gif2';
+        $input = 'com2';
 
         $output = 'set11318x1ZZP3800x1ZZP7776x1ZZP9732x1';
 
         // Act
-        $parsed = (new GoodCodeParser($input))->with(GiftGood::class, $goods)->get();
+        $parsed = (new GoodCodeParser($input))->with(ComplexGood::class, $goods)->get();
 
         // Assert
         $this->assertEquals($parsed, $output);
