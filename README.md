@@ -1,5 +1,13 @@
 # Good Code Parser
 
+[![PHP Linting (Pint)](https://github.com/cable8mm/good-code-parser/actions/workflows/coding-style-php.yml/badge.svg)](https://github.com/cable8mm/good-code-parser/actions/workflows/coding-style-php.yml)
+[![Tests](https://github.com/cable8mm/good-code-parser/actions/workflows/tests.yml/badge.svg)](https://github.com/cable8mm/good-code-parser/actions/workflows/tests.yml)
+[![update changelog](https://github.com/cable8mm/good-code-parser/actions/workflows/update-changelog.yml/badge.svg)](https://github.com/cable8mm/good-code-parser/actions/workflows/update-changelog.yml)
+![GitHub Release](https://img.shields.io/github/v/release/cable8mm/good-code-parser?logo=packagist&color=F28D1A)
+![Packagist Downloads](https://img.shields.io/packagist/dt/esc-company/good-code-parser?logo=packagist&color=F28D1A)
+![minimum PHP version](https://img.shields.io/badge/php-%3E%3D_8.0-8892BF.svg?logo=php)
+![GitHub License](https://img.shields.io/github/license/cable8mm/good-code-parser)
+
 We suggests general code-spec, parser and implement spec.
 
 ## Install
