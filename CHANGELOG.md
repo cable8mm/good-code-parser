@@ -1,5 +1,17 @@
 # Release Notes
 
+## v1.0.0 - 2024-03-03
+
+### What's Changed
+
+* Fix namespace of test classes by [@cable8mm](https://github.com/cable8mm) in https://github.com/cable8mm/good-code-parser/pull/2
+* Add github actions by [@cable8mm](https://github.com/cable8mm) in https://github.com/cable8mm/good-code-parser/pull/3
+* Fix some errors of ci by [@cable8mm](https://github.com/cable8mm) in https://github.com/cable8mm/good-code-parser/pull/4
+* Add changelog action by [@cable8mm](https://github.com/cable8mm) in https://github.com/cable8mm/good-code-parser/pull/5
+* Change package name to esc-company/good-code-parser by [@cable8mm](https://github.com/cable8mm) in https://github.com/cable8mm/good-code-parser/pull/6
+
+**Full Changelog**: https://github.com/cable8mm/good-code-parser/compare/v0.8...v1.0.0
+
 ## v0.8 - 2023-07-19
 
 ### What's Changed
@@ -33,8 +45,8 @@ Feature : Setcode default value. The patch apply setcode default value.
         // Assert
         $this->assertEquals($parsed, $expect);
     }
-```
 
+```
 ## v0.7.0 - 2020-05-22
 
 Launch code parser for Ecommerce
