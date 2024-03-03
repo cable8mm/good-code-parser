@@ -62,6 +62,18 @@ $parsed = (new OptionCodeParser($inOptionCode, $inOptionName))
 
 ```
 
+## Formatting
+
+```sh
+composer lint
+```
+
+## Test
+
+```sh
+composer test
+```
+
 ## Support codes
 
 | Type           | Notation | Description                                                                                                                      | Implement |
@@ -71,3 +83,7 @@ $parsed = (new OptionCodeParser($inOptionCode, $inOptionName))
 | `Complex Code` | COM      | Shorten code for `Set Code`                                                                                                      | Yes       |
 | `Gift Code`    | GIF      | Alias `Complex Code`                                                                                                             | Yes       |
 | `Option Code`  | OPT      | Very complicated code. Not mastercode, but code + search name.(eq. wemakeprice, naver petWindow and all most OpenMarket options) | Yes       |
+
+## License
+
+The Phpunit Start Kit is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

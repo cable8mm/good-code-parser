@@ -25,9 +25,6 @@
         }
     ],
     "autoload": {
-        "classmap": [
-            "src/"
-        ],
         "psr-4": {
             "Cable8mm\\GoodCodeParser\\": "src/"
         }
