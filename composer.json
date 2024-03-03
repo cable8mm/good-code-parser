@@ -1,6 +1,6 @@
 {
-    "name": "cable8mm/good-code-parser",
-    "description": "Sam suggests general code-spec, parser and implement spec.",
+    "name": "esc-company/good-code-parser",
+    "description": "We suggests general code-spec, parser and implement spec.",
     "keywords": [
         "composer",
         "php",
@@ -40,9 +40,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-        "start": [
-            "@php bin/init.php"
-        ],
         "test": [
             "./vendor/bin/phpunit tests"
         ],
