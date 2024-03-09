@@ -2,15 +2,20 @@
 
 namespace Cable8mm\GoodCodeParser\Contracts;
 
+/**
+ * Parser interface.
+ *
+ * Various Good must be implemented. This method is called when the parser recognizes something like 'gift' or 'opt'.
+ */
 interface Parser
 {
     /**
-     * Parsing
+     * Find good code by parsing.
      *
      * @param  string  $goodCode  before parsing
-     * @return array|string after parsing
+     * @return array|string Good code
      *
-     * @throws Cable8mm\GoodCodeParser\Exception\MethodNotImplementedException
+     * @throws InvalidArgumentException
      */
-    public static function parse(string $parse, $goods = null);
+    public static function parse(string $parse, ?array $goods = null): array|string;
 }

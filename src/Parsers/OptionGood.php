@@ -11,8 +11,10 @@ final class OptionGood implements OptionParser
 
     /**
      * {@inheritDoc}
+     *
+     * @throws InvalidArgumentException
      */
-    public static function parse(string $code, string $name, array $goods, array $options)
+    public static function parse(string $code, string $name, array $goods, array $options): array|string
     {
         $optionGood = null;
 

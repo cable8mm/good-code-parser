@@ -11,11 +11,13 @@ final class ComplexGood implements Parser
 
     /**
      * {@inheritDoc}
+     *
+     * @throws InvalidArgumentException
      */
-    public static function parse(string $code, $goods = null)
+    public static function parse(string $code, ?array $goods = null): array|string
     {
         if (is_null($goods)) {
-            throw new InvalidArgumentException(__METHOD__);
+            throw new InvalidArgumentException('$goods must be an array');
         }
 
         $key = preg_replace('/^'.self::PREFIX.'/i', '', $code);

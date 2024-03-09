@@ -11,7 +11,7 @@ final class GiftGood implements Parser
     /**
      * {@inheritDoc}
      */
-    public static function parse(string $code, $goods = null)
+    public static function parse(string $code, ?array $goods = null): array|string
     {
         $comCode = preg_replace('/^'.self::PREFIX.'/i', ComplexGood::PREFIX, $code);
 
