@@ -1,5 +1,14 @@
 # Release Notes
 
+## v1.0.2 - 2024-03-09
+
+### What's Changed
+
+* Add classes and methods comments for API Documentation by [@cable8mm](https://github.com/cable8mm) in https://github.com/cable8mm/good-code-parser/pull/9
+* Organizing various document wordings by [@cable8mm](https://github.com/cable8mm) in https://github.com/cable8mm/good-code-parser/pull/10
+
+**Full Changelog**: https://github.com/cable8mm/good-code-parser/compare/v1.0.1...v1.0.2
+
 ## v1.0.1 - 2024-03-03
 
 ### What's Changed
@@ -54,6 +63,7 @@ Feature : Setcode default value. The patch apply setcode default value.
         // Assert
         $this->assertEquals($parsed, $expect);
     }
+
 
 
 ```
