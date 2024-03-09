@@ -2,6 +2,11 @@
 
 namespace Cable8mm\GoodCodeParser;
 
+/**
+ * Option-good code can be parsed by the OptionGoodCodeParser.
+ *
+ * Option-good code can be matched by 'name', because option-good code have not code, so GoodCodeParser can not be used to parse option-good codes.
+ */
 class OptionCodeParser
 {
     /**
@@ -19,6 +24,12 @@ class OptionCodeParser
      */
     private $parsed;
 
+    /**
+     * Constructor.
+     *
+     * @param  string  $parse  Good name to be parsed.
+     * @param  string  $name  Option good name to be parsed.
+     */
     public function __construct(string $parse, string $name)
     {
         $this->parse = $parse;
@@ -26,12 +37,13 @@ class OptionCodeParser
     }
 
     /**
-     * @param string
-     * @return $this
+     * Ready to use a fit parser.
      *
-     * @var Cable8mm\GoodCodeParser\Contracts\OptionParser
+     * @param  string  $parser  Parser name eg. OptionGood::class.
+     * @param  array  $goods  Good code array
+     * @param  array  $options  Option code array
      */
-    public function with($parser, array $goods, array $options)
+    public function with(string $parser, array $goods, array $options): static
     {
         $this->parsed = $parser::parse($this->parse, $this->name, $goods, $options);
 
@@ -39,11 +51,9 @@ class OptionCodeParser
     }
 
     /**
-     * Return code.
-     *
-     * @return array|string
+     * Return option-good code or codes.
      */
-    public function get()
+    public function get(): array|string
     {
         return $this->parsed;
     }
