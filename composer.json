@@ -1,6 +1,6 @@
 {
     "name": "esc-company/good-code-parser",
-    "description": "We suggests general code-spec, parser and implement spec.",
+    "description": "Create a general code specification for building a WMS (Warehouse Management System), and specify parsers and implementation guidelines.",
     "keywords": [
         "composer",
         "php",
