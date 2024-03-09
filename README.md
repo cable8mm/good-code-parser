@@ -1,14 +1,26 @@
 # Good Code Parser
 
-[![PHP Linting (Pint)](https://github.com/cable8mm/good-code-parser/actions/workflows/coding-style-php.yml/badge.svg)](https://github.com/cable8mm/good-code-parser/actions/workflows/coding-style-php.yml)
-[![Tests](https://github.com/cable8mm/good-code-parser/actions/workflows/tests.yml/badge.svg)](https://github.com/cable8mm/good-code-parser/actions/workflows/tests.yml)
-[![update changelog](https://github.com/cable8mm/good-code-parser/actions/workflows/update-changelog.yml/badge.svg)](https://github.com/cable8mm/good-code-parser/actions/workflows/update-changelog.yml)
-![GitHub Release](https://img.shields.io/github/v/release/cable8mm/good-code-parser?logo=packagist&color=F28D1A)
-![Packagist Downloads](https://img.shields.io/packagist/dt/esc-company/good-code-parser?logo=packagist&color=F28D1A)
-![minimum PHP version](https://img.shields.io/badge/php-%3E%3D_8.0-8892BF.svg?logo=php)
-![GitHub License](https://img.shields.io/github/license/cable8mm/good-code-parser)
+[![code-style](https://github.com/cable8mm/good-code-parser/actions/workflows/code-style.yml/badge.svg)](https://github.com/cable8mm/good-code-parser/actions/workflows/code-style.yml)
+[![run-tests](https://github.com/cable8mm/good-code-parser/actions/workflows/run-tests.yml/badge.svg)](https://github.com/cable8mm/good-code-parser/actions/workflows/run-tests.yml)
+![Packagist Version](https://img.shields.io/packagist/v/esc-company/good-code-parser)
+![Packagist Downloads](https://img.shields.io/packagist/dt/esc-company/good-code-parser)
+![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/esc-company/good-code-parser/php)
+![Packagist Stars](https://img.shields.io/packagist/stars/esc-company/good-code-parser)
+![Packagist License](https://img.shields.io/packagist/l/esc-company/good-code-parser)
 
-We suggests general code-spec, parser and implement spec.
+A robust code specification is crucial within the commercial market industry, especially for online stores like Amazon. The integration of online stores with Warehouse Management Systems (WMS) is essential as both systems handle extensive seller and product data. Therefore, we recommend implementing a solid structure and providing robust support for these systems.
+
+These specifications cover a variety of online stores, including Coupang, 11th Street, Naver Storefarm, and many others for a while.
+
+We have provided the API Documentation on the web. For more information, please visit https://www.palgle.com/good-code-parser/ ❤️
+
+## Features
+
+- [x] General good code parser
+- [x] Gift good code parser
+- [x] Set good code parser
+- [x] Complex good code parser
+- [x] Option Good code parser(No code, name matched by name)
 
 ## Install
 
