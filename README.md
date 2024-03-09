@@ -25,7 +25,7 @@ We have provided the API Documentation on the web. For more information, please 
 ## Install
 
 ```bash
-composer require cable8mm/good-code-parser
+composer require esc-company/good-code-parser
 ```
 
 ## Usage
